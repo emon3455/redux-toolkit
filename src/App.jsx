@@ -1,5 +1,6 @@
 
 import './App.css'
+import CounterView from './features/counter/CounterView'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <h1 className='text-4xl font-semibold text-center'>
           Learning Redux Toolkit
       </h1>
+      <CounterView/>
     </>
   )
 }
